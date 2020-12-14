@@ -1,4 +1,5 @@
-# Git ( Version Control System ) 
+# Git ( Version Control System )
+
 Git - Version Control System 중 한 시스템이다. 
 
 report.xls  → report_final_real_final.xls 이렇게 해야하는 것 
@@ -29,7 +30,7 @@ ls -al : 현재 디렉토리에 어떤 것이 있는지 보여주려는 것
 
 cat f1.txt : 하면 txt파일의 내용이 보여진다. 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/21bd13a3-3d82-4e69-88b0-0ecf26e68389/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/21bd13a3-3d82-4e69-88b0-0ecf26e68389/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/38427646/102079499-28ef2880-3e50-11eb-9ece-5c3c356fcfb7.png)
 
 - 지금 생성한 f1.txt 파일은 버전관리가 되고 있는 디렉토리인 gitfth 안에는 존재하지만
 
@@ -41,7 +42,7 @@ cat f1.txt : 하면 txt파일의 내용이 보여진다.
 git add f1.txt 
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e74f76af-4109-476a-9686-5b64a417eb22/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e74f76af-4109-476a-9686-5b64a417eb22/Untitled.png)
+![Untitled 1](https://user-images.githubusercontent.com/38427646/102079411-03fab580-3e50-11eb-8b06-6fe9c8321b24.png)
 
 - git add 를 하면 아까와는 다르게 status시 git이 new file이라고 인식한다.
 
@@ -56,7 +57,7 @@ git config --global user.email 이메일
 
  
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/612a78d4-bce5-49f1-97b5-32fdc80e631e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/612a78d4-bce5-49f1-97b5-32fdc80e631e/Untitled.png)
+![Untitled 2](https://user-images.githubusercontent.com/38427646/102079564-4a501480-3e50-11eb-8dda-cc1be8148997.png)
 
 - 이렇게 하면 잘 된 것
 - 보통 git commit -m "메시지" 이렇게 한다.
@@ -68,20 +69,20 @@ log : 로그를 확인하면 commit 등 내가 지금까지 했던 commit 들을
 
 ✅ **diff** : 두 커밋 사이의 다른 점을 알고 싶을때 사용하는 것 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6b53bb3f-ef7a-4b1b-a62c-c1aaddfd706e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6b53bb3f-ef7a-4b1b-a62c-c1aaddfd706e/Untitled.png)
+![Untitled 3](https://user-images.githubusercontent.com/38427646/102079589-55a34000-3e50-11eb-8a09-ca2b113c49bd.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11430052-4911-42fe-8def-5e4869788357/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11430052-4911-42fe-8def-5e4869788357/Untitled.png)
+![Untitled 4](https://user-images.githubusercontent.com/38427646/102079607-5c31b780-3e50-11eb-9411-3e7b6be435b8.png)
 
 - git diff를 통해 내가 현재 어떤작업을 했는지 전 → 후를 알 수 있습니다.
 - commit를 하기 전 내가 한 작업이 잘됐는지 안됐는지를 확인할 수 있는 마지막 기회! 를 제공합니다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1c8f3364-8179-440a-bc34-214503008bd8/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1c8f3364-8179-440a-bc34-214503008bd8/Untitled.png)
+![Untitled 5](https://user-images.githubusercontent.com/38427646/102079625-6358c580-3e50-11eb-83ac-de1202be5d43.png)
 
 - reset : commit 를 지우고 다시하는 명령어 ( 나중에 soft를 배운다. hard는 조금 위험하다는 것)
 
 revert : commit 를 지우고 다시하는 명령어
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7229908e-7f6b-4397-a97a-5c4a7a475750/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7229908e-7f6b-4397-a97a-5c4a7a475750/Untitled.png)
+![Untitled 6](https://user-images.githubusercontent.com/38427646/102079648-6bb10080-3e50-11eb-9b2b-f75863ed4491.png)
 
 - 생활코딩에서 나온 사람들이 자주 검색하는 git 명령어들 (중요도 순이라고 할 수 있겠다. )
 
@@ -94,36 +95,36 @@ report.xsl → report1.xsl → report2.xsl 순으로 수정되는 파일이 있�
 report2.xsl → report2_client.xsl → report_client2.xsl  ———> 
 
                                                                                                      reposrt5.xsl       →  report6.xsl 
-
+    
                   → report3.xsl → reporst4.xsl                   ——— > 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c60d7b9a-1a89-4fac-aca7-01f363d7fcb9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c60d7b9a-1a89-4fac-aca7-01f363d7fcb9/Untitled.png)
+![Untitled 7](https://user-images.githubusercontent.com/38427646/102079667-753a6880-3e50-11eb-97e5-e47c9b5fbc39.png)
 
 - git branch : 브랜치를 만드는 명령어
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/45c6f388-f7b4-4e7d-8e12-8e17dbf0737e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/45c6f388-f7b4-4e7d-8e12-8e17dbf0737e/Untitled.png)
+![Untitled 8](https://user-images.githubusercontent.com/38427646/102079697-7f5c6700-3e50-11eb-93e8-fc28465f4e7c.png)
 
 - git checkout exp 는 현재 브랜치인 master를 체크아웃하고 exp로 하겠다는 것을 의미합니다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ad6d8dc3-94cb-402a-af9b-831ba2a91b07/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ad6d8dc3-94cb-402a-af9b-831ba2a91b07/Untitled.png)
+![Untitled 9](https://user-images.githubusercontent.com/38427646/102079716-86837500-3e50-11eb-8b7f-866cd080e538.png)
 
 - git log —braches —decorate는 모든 branch git log별로 최신 commit 이 보여진다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0179c2f1-fe05-4fa6-8b80-6cbfaee94776/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0179c2f1-fe05-4fa6-8b80-6cbfaee94776/Untitled.png)
+![Untitled 10](https://user-images.githubusercontent.com/38427646/102079739-8daa8300-3e50-11eb-94ff-f8570b626805.png)
 
 - — graph를 통해  5와 3,4는 2이라는 공통에서 나온 것을 알 수 있습니다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/956b2c3b-60a8-4535-8881-4ab009daa924/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/956b2c3b-60a8-4535-8881-4ab009daa924/Untitled.png)
+![Untitled 11](https://user-images.githubusercontent.com/38427646/102079766-9b600880-3e50-11eb-8512-d05fc96f1ea6.png)
 
 - — oneline 를 하면 좀 더 간결하게 볼 수 있습니다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d59e7c20-83f2-432e-8189-1d944abd2780/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d59e7c20-83f2-432e-8189-1d944abd2780/Untitled.png)
+![Untitled 12](https://user-images.githubusercontent.com/38427646/102079784-a1ee8000-3e50-11eb-9ced-2db8e0e852d4.png)
 
 - log 와  exp를 비교하는 것을 의미한다.
 - log에는 없고 exp에는 있는 것을 보여줌 ! (만약 git log exp..master를 하면  exp에는 없고 master에는 있는 것을 알려준다. )
 
 ✅ **merge** : 브랜치 병합 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/522e3449-e8a0-46b1-b05a-01cceec38426/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/522e3449-e8a0-46b1-b05a-01cceec38426/Untitled.png)
+![Untitled 13](https://user-images.githubusercontent.com/38427646/102079822-b6327d00-3e50-11eb-9ba4-54fe0a14f8d1.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/950cbf4c-f09e-49e4-ae8d-81834dd7ab58/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/950cbf4c-f09e-49e4-ae8d-81834dd7ab58/Untitled.png)
+![Untitled 14](https://user-images.githubusercontent.com/38427646/102079849-c0547b80-3e50-11eb-9a2f-c95e69429c91.png)
