@@ -214,9 +214,6 @@ git push 명령어 !
 
 ![Untitled 27](https://user-images.githubusercontent.com/38427646/102196395-34e7f280-3f03-11eb-8e51-52c3ab62b32f.png)
 
-![Git%20(%20Version%20Control%20System%20)%20e8cd7906357c4a4d97580fad65c6f922/Untitled%2028.png](Git%20(%20Version%20Control%20System%20)%20e8cd7906357c4a4d97580fad65c6f922/Untitled%2028.png)
-
-![Git%20(%20Version%20Control%20System%20)%20e8cd7906357c4a4d97580fad65c6f922/Untitled%2029.png](Git%20(%20Version%20Control%20System%20)%20e8cd7906357c4a4d97580fad65c6f922/Untitled%2029.png)
 
 - git remote 로 확인 ! -v로 어떻게 되있는지 확인 ! 🙂
 
