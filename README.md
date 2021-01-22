@@ -50,6 +50,14 @@ git add f1.txt
 git config --global user.name 닉네임
 git config --global user.email 이메일
 ```
+##### git add의 다양한 옵션 
+
+ - git add. 현재 디렉토리 추가
+ - git add  -u 수정된 부분 추가
+ - git add  -A 폴더 있는 모든 파일 추가
+ - git add  -i 파일을 추가할댸 대화식으로 추가하기
+ - git add  * 모든 파일을 staged 상태로 만듬 -> .gitigonore 무시하고 올라갈수도 있음
+ - git add  -p 수정된거 확인 후 추가하기
 
 - 다른 사람이 봤을때 누가 작업했는지 알 수 있는 것으로 나의 닉네임과 이메일을 넣으면 된다.  ( 이건 딱 한번만 하면된다. )
 
