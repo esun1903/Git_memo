@@ -259,6 +259,8 @@ git push 명령어 !
 
 실습한 것 
 
+
+
 ![Untitled 33](https://user-images.githubusercontent.com/38427646/102196407-36b1b600-3f03-11eb-86ac-34d462e424b2.png)
 
 - 이런식으로 했다 . 🙂
@@ -270,3 +272,6 @@ git push 명령어 !
 생활코딩 최고 ㅠㅠㅠ 😇 너무 좋은강의인 것 같다.
 
 - 생활코딩 (유튜브 생활코딩) 
+
+- git 연결할 때 유용한 블로그! :) 
+[https://mosei.tistory.com/entry/기존-프로젝트를-git-repository에-연결-하기](https://mosei.tistory.com/entry/%EA%B8%B0%EC%A1%B4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-git-repository%EC%97%90-%EC%97%B0%EA%B2%B0-%ED%95%98%EA%B8%B0)
