@@ -275,3 +275,6 @@ git push 명령어 !
 
 - git 연결할 때 유용한 블로그! :) 
 [https://mosei.tistory.com/entry/기존-프로젝트를-git-repository에-연결-하기](https://mosei.tistory.com/entry/%EA%B8%B0%EC%A1%B4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-git-repository%EC%97%90-%EC%97%B0%EA%B2%B0-%ED%95%98%EA%B8%B0)
+
+- git 브랜치에 대한 유용한 블로그 :) 
+https://mosei.tistory.com/entry/%EA%B8%B0%EC%A1%B4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-git-repository%EC%97%90-%EC%97%B0%EA%B2%B0-%ED%95%98%EA%B8%B0ㅠㄱ
